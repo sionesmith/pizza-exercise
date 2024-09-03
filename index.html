@@ -13,6 +13,9 @@
         max-width: 200px;
 
     }
+    .firstpicture {
+        border-radius: 30px;
+    }
     div{
         display: flex;
         font-size: large;
@@ -30,31 +33,43 @@
     <br>
     <h3>Smith's pizza Menu</h3>
     <ol>
-        <li><img src="desktop_thumbnail_598ee263-e122-4649-8797-a28a1321be4c.png" ><p><h3>Ultimate Double Cheesy Pepperoni</h3>
-
+        <li><img src="desktop_thumbnail_598ee263-e122-4649-8797-a28a1321be4c.png" class="firstpicture"><p><h3>Ultimate Double Cheesy Pepperoni</h3>
+            
             The only thing better than cheese is more cheese. Extra mozzarella bedded into the base, topped with more mozzarella cheesy</p><p>price: $12</p></li>
-            <div class="dropdown"> 
-                <button class="dropbtn">size</button>
-                <div class="dropdown-content">
-                    <ul>
-                        small 
-                    </ul>
-                    <ul>
-                        medium $13
-                    </ul>
-                    <ul>large $14
+            <form>
+                <label for=pizzaSize"">Choose a size:</label>
+                <select name="pizza" id="pizzas">
+                  <option value="small">Small</option>
+                  <option value="medium">Medium +$2</option>
+                  <option value="large">Large +$4</option>
+                </select>
+                <input type="submit" value="Submit">
+              </form>
+              <br>
+            <li><img src="desktop_thumbnail_6c12d584-929b-4cd3-bbf7-d90c00c2bc34.png" ><p><h3>Steak Meat Lovers</h3>Succulent steak, red onion and cheese sauce 
+            <form>
+                <label for=pizzaSize"">Choose a size:</label>
+                <select name="pizza" id="pizzas">
+                  <option value="small">Small</option>
+                  <option value="medium">Medium +$2</option>
+                  <option value="large">Large +$4</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
 
-                 </ul>
-                </div>
-            </div>
-
-        <li><img src="desktop_thumbnail_6c12d584-929b-4cd3-bbf7-d90c00c2bc34.png" ><p>Steak Meat Lovers
-
-            Succulent steak, pepperoni, ham, Italian sausage and bacon, all drizzled with BBQ sauce.</p></li>
-
-        <li><img src="desktop_thumbnail_7cca2f5b-f935-4f2c-9a9c-837f5e68ef4b.png"><p>Steak and Cheese
-
-            Succulent steak, red onion and cheese sauce</p></li>
+             <li><img src="desktop_thumbnail_7cca2f5b-f935-4f2c-9a9c-837f5e68ef4b.png"><p><h3>Steak and Cheese Succulent steak</h3> Pepperoni, ham, Italian sausage and bacon, all drizzled with BBQ sauce.</p></li>
+            </p></li>
+            <form>
+                <label for=pizzaSize"">Choose a size:</label>
+                <select name="pizza" id="pizzas">
+                  <option value="small">Small</option>
+                  <option value="medium">Medium +$2</option>
+                  <option value="large">Large +$4</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
     
     </ol>
     
